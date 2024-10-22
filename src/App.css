@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'lightgallery/css/lightgallery.css';
+@import 'lightgallery/css/lg-thumbnail.css';
+@import 'lightgallery/css/lg-zoom.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Inter", sans-serif !important;
+}
+
+body {
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  background-color: #f8f8f8;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*fix size priview image antd*/
+.ant-image-preview-img {
+  height: 420px;
+  object-fit: contain;
+}
+
+/*fix margin star antd*/
+.ant-rate-star {
+  margin-inline-end: 2px !important;
+}
+
+/*fix card body antd*/
+.ant-card-body {
+  padding: 12px !important;
+}
+
+/*fix image light gallery*/
+.lg-outer .lg-thumb-item img {
+  object-fit: contain;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 4px;
+  background: #b0b0b0;
+}
+
+.logo-primary {
+  background: #1D54FF;
+  background: linear-gradient(to right, #1D54FF 0%, #86C0C4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
